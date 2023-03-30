@@ -1,4 +1,36 @@
 import gspread
+import os
+import time
+import random
+import colorama from colors 
+
+
+def opening_logo():
+    """
+    Logo for opening of game 
+    """ 
+    print(Back.RED+ "========  ========  ========  ========  ========      ===     ==       ==") 
+    print(Back.RED+ "==        ==    ==  ==    ==     ==     ==     ==    == ==    ==       ==")
+    print(Back.RED+ "==        ==    ==  ==    ==     ==     ==     ===  ==   ==   ==       ==")
+    print(Back.RED+ "==        ==    ==  ==    ==     ==     ==     ==   ==   ==   ==       ==")
+    print(Back.RED+ "========  ==    ==  ==    ==     ==     ========    =======   ==       ==")
+    print(Back.RED+ "==        ==    ==  ==    ==     ==     ==     ==   ==   ==   ==       ==")
+    print(Back.RED+ "==        ==    ==  ==    ==     ==     ==      ==  ==   ==   ==       ==")
+    print(Back.RED+ "==        ==    ==  ==    ==     ==     ==     ==   ==   ==   ==       ==")
+    print(Back.RED+ "==        ========  ========     ==     ========    ==   ==   =======  =======/n")
+    print(Back.RED+ "========   ==    ==  ======  =======")
+    print(Back.RED+ "==    ==   ==    ==    ==         =")
+    print(Back.RED+ "==    ==   ==    ==    ==        =")
+    print(Back.RED+ "==    ==   ==    ==    ==       =")
+    print(Back.RED+ "==    ==   ==    ==    ==      =")
+    print(Back.RED+ "==    ==   ==    ==    ==     =")
+    print(Back.RED+ "=========  ========  ======  =======/n")   
+
+
+
+
+
+
 from google.oauth2.service_account import Credentials
 
 SCOPE = [
