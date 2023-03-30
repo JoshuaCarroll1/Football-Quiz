@@ -44,3 +44,8 @@ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('football_quiz')
 
+def main():
+    """
+    Main function to run program 
+    """
+    opening_logo()
