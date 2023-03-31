@@ -36,11 +36,18 @@ def clear():
 
 def game_setup():
     """
-    Game start up prior to enetering name.
+    Game start up prior to entering name.
     """
     print(Fore.GREEN+ "Welcome to the Football Quiz!")
     print(Fore.GREEN+ "Please add your username below!")
 
+
+def username_setup():
+    """
+    Add username here.
+    """
+    username = input("Type name here and click return: ")
+    print("Hello" + username + ", lets test your ball knowledge!")
 
 from google.oauth2.service_account import Credentials
 
