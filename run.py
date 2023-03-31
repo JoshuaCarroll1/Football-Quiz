@@ -2,7 +2,7 @@ import gspread
 import os
 import time
 import random
-import colorama from colors 
+from colors import colorama
 
 
 def opening_logo():
@@ -27,8 +27,16 @@ def opening_logo():
     print(Back.RED+ "=========  ========  ======  =======/n")   
 
 
+def clear():
+    """
+    Clear function to make terminal look cleaner.
+    """
+    os.system("cls" if os.name == "nt" else "clear")
 
-
+def game_setup():
+    """
+    Game start up prior to enetering name.
+    """
 
 
 from google.oauth2.service_account import Credentials
