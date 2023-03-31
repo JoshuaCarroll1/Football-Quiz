@@ -67,3 +67,7 @@ def main():
     Main function to run program 
     """
     opening_logo()
+    clear()
+    game_setup()
+    username_setup()
+    
