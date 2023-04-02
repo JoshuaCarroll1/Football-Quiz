@@ -181,7 +181,7 @@ QUESTIONS = [
         "correct answer": "D"
         "choices": [
             "A. Ligue 1",
-            "B. Seria A",
+            "B. Serie A",
             "C. Bundesliga",
             "D. Eredivisie",
 
@@ -276,7 +276,7 @@ QUESTIONS = [
         ]
     },
     {
-        "question": "Which player won MVP in Seria A in the 2021/ 2022 season?",
+        "question": "Which player won MVP in Serie A in the 2021/ 2022 season?",
         "correct answer": "D"
         "choices": [
             "A. Olivier Giroud",
