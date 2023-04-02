@@ -3,6 +3,7 @@ import os
 import time
 import random
 from colors import colorama
+from questions import QUESTIONS
 
 
 def opening_logo():
@@ -49,6 +50,13 @@ def username_setup():
     username = input("Type name here and click return: ")
     print("Hello" + username + ", lets test your ball knowledge!")
 
+
+def questions_validator():
+    """
+    Questions validator to show questions and answers
+    """
+    print(questions)
+
 from google.oauth2.service_account import Credentials
 
 SCOPE = [
@@ -70,4 +78,5 @@ def main():
     clear()
     game_setup()
     username_setup()
+    questions_validator()
     
