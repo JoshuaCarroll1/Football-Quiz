@@ -7,7 +7,6 @@ QUESTIONS = [
             "B. Pele",
             "C. Ali Daei",
             "D. Mokhtar Dahari",
-
         ]
     },
     {
@@ -18,7 +17,6 @@ QUESTIONS = [
             "B. Manchester United",
             "C. Pep Guardiola",
             "D. Arsene Wenger",
-
         ]
     },
     {
@@ -29,7 +27,6 @@ QUESTIONS = [
             "B. Karim Benzema",
             "C. Diego Maradona",
             "D. Cristiano Ronaldo",
-
         ]
     },
     {
@@ -40,7 +37,6 @@ QUESTIONS = [
             "B. Barcalona FC",
             "C. PSG",
             "D. Liverpool FC",
-
         ]
     },
     {
@@ -51,7 +47,6 @@ QUESTIONS = [
             "B. Bayern Munich",
             "C. PSG",
             "D. Manchester City",
-
         ]
     },
     {
@@ -62,7 +57,6 @@ QUESTIONS = [
             "B. Sporting FC",
             "C. Benfica",
             "D. Brighton",
-
         ]
     },
     {
@@ -73,7 +67,6 @@ QUESTIONS = [
             "B. Manchester United",
             "C. Manchester City",
             "D. Spurs",
-
         ]
     },
     {
@@ -84,7 +77,6 @@ QUESTIONS = [
             "B. Brazil",
             "C. Uruguay",
             "D. Germany",
-
         ]
     },
     {
@@ -95,7 +87,6 @@ QUESTIONS = [
             "B. 2",
             "C. 3",
             "D. 4",
-
         ]
     },
     {
@@ -106,7 +97,6 @@ QUESTIONS = [
             "B. Mbappe",
             "C. Gareth Bale",
             "D. Cristiano Ronaldo",
-
         ]
     },
     {
@@ -117,7 +107,6 @@ QUESTIONS = [
             "B. Diego Maradona",
             "C. Ashley Cole",
             "D. Luis Suarez",
-
         ]
     },
     {
@@ -128,7 +117,6 @@ QUESTIONS = [
             "B. Dani Alves",
             "C. Ryan Giggs",
             "D. Harry Kane",
-
         ]
     },
     {
@@ -139,7 +127,6 @@ QUESTIONS = [
             "B. Luis Figo",
             "C. Kaka",
             "D. Rio Ferdinand",
-
         ]
     },
     {
@@ -150,7 +137,6 @@ QUESTIONS = [
             "B. Gerd Müller",
             "C. Pele",
             "D. George Best",
-
         ]
     },
     {
@@ -161,7 +147,6 @@ QUESTIONS = [
             "B. Neuer",
             "C. Yashin",
             "D. Karius",
-
         ]
     },
 
@@ -173,7 +158,6 @@ QUESTIONS = [
             "B. Grêmio",
             "C. PSG",
             "D. Sao Paulo FC",
-
         ]
     },
     {
@@ -184,7 +168,6 @@ QUESTIONS = [
             "B. Serie A",
             "C. Bundesliga",
             "D. Eredivisie",
-
         ]
     },
     {
@@ -195,7 +178,6 @@ QUESTIONS = [
             "B. Portsmouth",
             "C. Manchester United",
             "D. Manchester City",
-
         ]
     },
     {
@@ -206,7 +188,6 @@ QUESTIONS = [
             "B. Diego Maradona",
             "C. Sergio Ramos",
             "D. Sergio Aguero",
-
         ]
     },
     {
@@ -217,7 +198,6 @@ QUESTIONS = [
             "B. Mexico",
             "C. France",
             "D. Saudi Arabia",
-
         ]
     },
     {
@@ -228,7 +208,6 @@ QUESTIONS = [
             "B. Manchester United FC",
             "C. CHelsea FC",
             "D. Arsenal FC",
-
         ]
     },
     {
@@ -239,7 +218,6 @@ QUESTIONS = [
             "B. Brazil",
             "C. Uruguay",
             "D. France",
-
         ]
     },
     {
@@ -250,7 +228,6 @@ QUESTIONS = [
             "B. Nani",
             "C. Eder",
             "D. Quaresma",
-
         ]
     },
     {
@@ -261,7 +238,6 @@ QUESTIONS = [
             "B. Eric Cantona",
             "C. Cesc Fabregas",
             "D. Frank Lampard",
-
         ]
     },
     {
@@ -272,7 +248,6 @@ QUESTIONS = [
             "B. 3",
             "C. 5",
             "D. 7",
-
         ]
     },
     {
@@ -283,7 +258,6 @@ QUESTIONS = [
             "B. Zlatan Ibrahimović",
             "C. Theo Hernandez",
             "D. Rafael Leao",
-
         ]
     },
     {
@@ -294,7 +268,6 @@ QUESTIONS = [
             "B. Lionel Messi",
             "C. Cristiano Ronaldo",
             "D. Luis Suarez",
-
         ]
     },
     {
@@ -305,7 +278,6 @@ QUESTIONS = [
             "B. Pele",
             "C. Lionel Messi",
             "D. Cristiano Ronaldo",
-
         ]
     },
     {
@@ -316,7 +288,6 @@ QUESTIONS = [
             "B. 1",
             "C. 3",
             "D. 4",
-
         ]
     },
     {
@@ -327,7 +298,6 @@ QUESTIONS = [
             "B. Lisandro Martínez",
             "C. Rodrigo De Paul",
             "D. Gonzalo Montiel",
-
         ]
     },
 ]
