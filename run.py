@@ -49,13 +49,35 @@ def username_setup():
     """
     username = input("Type name here and click return: ")
     print("Hello" + username + ", lets test your ball knowledge!")
+    
+
+def validator_username(username_setup):
+    """
+    Used to validate name has under a certain amount of characters and only uses alphabet
+    """    
+    if username_setup == '':
+        print(Fore.RED+ "No usersname given, please try again/n")
+        return False
+    elif len(username_setup) > 15:
+        print(Fore.RED+ "Usersname given is too long, please try again/n")
+        return False
+    elif len(username_setup) < 4:
+        print(Fore.RED+ "Usersname given is too short, please try again/n")
+        return False
+    else:
+        return True
+
+
+
+
+  
 
 
 def questions_validator():
     """
     Questions validator to show questions and answers
     """
-    print(questions)
+    print(QUESTIONS)
 
 from google.oauth2.service_account import Credentials
 
