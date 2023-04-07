@@ -21,6 +21,10 @@ GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('football_quiz')
 
 
+QUESTIONS_CORRECT = 0
+QUESTIONS_INCORRECT = 0
+
+
 def opening_logo():
     """
     Logo for opening of game
@@ -96,7 +100,30 @@ def questions_validator():
     """
     Questions validator to show questions and answers
     """
-    print(QUESTIONS)
+    global QUESTIONS_CORRECT
+    global QUESTIONS_INCORRECT
+
+    random.shuffle(QUESTIONS)
+    questions = QUESTIONS[:10]
+    for question in questions:
+        print("")
+        print(question["question"])
+        for choice in question["choices"]:
+            print(choice)
+        print("")
+        user_answer = input(f"Select your answer:\n").upper()
+        options = ["A", "B", "C", "D"]
+        if user_answer not in options:
+            print(Fore.RED + "That is not a valid option, try again!")
+        if user_answer == question["correct_answer"]:
+            QUESTIONS_CORRECT += 1
+            print(Fore.GREEN + "That is Correct!")
+        else:
+            QUESTIONS_INCORRECT += 1
+            print(Fore.RED + "That is Incorrect!")
+        print("")
+        input("Press enter to continue")
+        clear()
 
 
 if __name__ == "__main__":
