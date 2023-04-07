@@ -64,6 +64,10 @@ def validator_username(username_setup):
     elif len(username_setup) < 4:
         print(Fore.RED+ "Usersname given is too short, please try again/n")
         return False
+    elif username_setup.isalpha():
+        print(Fore.RED+ "Usersname given cannot contain letters only!/n")
+        return False
+      
     else:
         return True
 
