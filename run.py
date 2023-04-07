@@ -48,7 +48,7 @@ def username_setup():
     Add username here.
     """
     username = input("Type name here and click return: ")
-    print("Hello" + username + ", lets test your ball knowledge!")
+    print(Fore.GREEN+ "Hello" + username + ", lets test your ball knowledge!")
     
 
 def validator_username(username_setup):
@@ -72,16 +72,12 @@ def validator_username(username_setup):
         return True
 
 
-
-
-  
-
-
 def questions_validator():
     """
     Questions validator to show questions and answers
     """
     print(QUESTIONS)
+
 
 from google.oauth2.service_account import Credentials
 
@@ -95,6 +91,7 @@ CREDS = Credentials.from_service_account_file('creds.json')
 SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('football_quiz')
+
 
 def main():
     """
