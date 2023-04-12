@@ -126,6 +126,26 @@ def questions_validator():
         clear()
 
 
+def final_score():
+    """
+    Calcualte final score of game
+    """
+    
+
+def end_game():
+    """
+    End of game text with result
+    """
+    print(Great job username, you got a score of finalscore)
+    print(Would you like to play again?)
+
+
+def replay_game()
+    """
+    Yes or No on whether the user wouldl ike to play again
+    """
+
+
 if __name__ == "__main__":
     """
     Main function to run program
@@ -135,3 +155,6 @@ if __name__ == "__main__":
     game_setup()
     username_setup()
     questions_validator()
+    final_score()
+    end_game()
+    replay_game
