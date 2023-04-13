@@ -130,7 +130,7 @@ def final_score():
     """
     Calcualte final score of game
     """
-    
+
 
 def end_game():
     """
