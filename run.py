@@ -121,10 +121,34 @@ def end_game():
     print(Fore.GREEN + "Would you like to play again?")
 
 
-def replay_game()
+def replay_game():
     """
     Yes or No on whether the user wouldl ike to play again
     """
+    global QUESTIONS_CORRECT
+    global QUESTIONS_INCORRECT
+    global USERNAME
+    replaygame = input(f"If you would like to replay click Y, otherwise click N.\n").upper()
+    if replaygame == "Y":
+        print(Fore.GREEN + "Restarting game!")
+        clear()
+        QUESTIONS_CORRECT = 0
+        QUESTIONS_INCORRECT = 0
+        USERNAME = ""
+        opening_logo()
+        game_setup()
+        username_setup()
+        questions_validator()
+        end_game()
+        replay_game()
+        return True
+    elif replaygame == "N":
+        print(Fore.RED + "Awww, well thank you for playing!")
+        return False
+        clear()
+    else:
+        print("That is not a valid option, Try again!")
+        replay_game()
 
 
 if __name__ == "__main__":
