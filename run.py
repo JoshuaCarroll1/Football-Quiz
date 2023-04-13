@@ -112,17 +112,12 @@ def questions_validator():
         clear()
 
 
-def final_score():
-    """
-    Calcualte final score of game
-    """
-
-
 def end_game():
     """
     End of game text with result
     """
-    print(Fore.GREEN + "Great job username, you got a score of finalscore\n")
+    print(Fore.GREEN + f"Great job {USERNAME}, you got a score of {QUESTIONS_CORRECT}!")
+    print(Fore.RED + f"You got {QUESTIONS_INCORRECT} incorrect.\n")
     print(Fore.GREEN + "Would you like to play again?")
 
 
