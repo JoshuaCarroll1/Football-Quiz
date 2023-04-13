@@ -70,16 +70,16 @@ def validator_username(username):
     amount of characters and only uses alphabet
     """
     if username == '':
-        print(Fore.RED + "No usersname given, please try again/n")
+        print(Fore.RED + "No username given, please try again")
         return False
     elif len(username) > 15:
-        print(Fore.RED + "Usersname given is too long, please try again/n")
+        print(Fore.RED + "Username given is too long, please try again")
         return False
     elif len(username) < 3:
-        print(Fore.RED + "Usersname given is too short, please try again/n")
+        print(Fore.RED + "Username given is too short, please try again")
         return False
     elif not username.isalpha():
-        print(Fore.RED + "Usersname given cannot contain letters only!/n")
+        print(Fore.RED + "Username given cannot contain letters only!")
         return False
     else:
         return True
