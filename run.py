@@ -9,6 +9,7 @@ colorama.init(autoreset=True)
 
 QUESTIONS_CORRECT = 0
 QUESTIONS_INCORRECT = 0
+USERNAME = ""
 
 
 def opening_logo():
@@ -53,12 +54,14 @@ def username_setup():
     """
     Add username here.
     """
+    global USERNAME
     while True:
         username = input("Type name here and click return: ")
         if validator_username(username):
             break
     clear()
-    print(Fore.GREEN + "Hello" + username + ", lets test your ball knowledge!")
+    USERNAME = username
+    print(Fore.GREEN + "Hello " + username + ", lets test your ball knowledge!")
 
 
 def validator_username(username):
