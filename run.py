@@ -136,8 +136,8 @@ def end_game():
     """
     End of game text with result
     """
-    print(Great job username, you got a score of finalscore)
-    print(Would you like to play again?)
+    print(Fore.GREEN + "Great job username, you got a score of finalscore")
+    print(Fore.GREEN + "Would you like to play again?")
 
 
 def replay_game()
@@ -157,4 +157,4 @@ if __name__ == "__main__":
     questions_validator()
     final_score()
     end_game()
-    replay_game
+    replay_game()
