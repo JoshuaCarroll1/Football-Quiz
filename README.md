@@ -64,10 +64,8 @@
 - [Python](https://www.python.org) used as the back-end programming language.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
-- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
 
 ## Data Model
 
@@ -83,15 +81,7 @@ Below is the flowchart of the main process of this Python program. It shows the 
 
 ### Classes & Functions
 
-The program uses classes as a blueprint for the project's objects (OOP). This allows for the object to be reusable.
 
-```python
-class Quiz:
-    """ Insert docstring comments here """
-    def __init__(self):
-        self.name = []
-        self.score = 0
-```
 
 The primary functions used on this application are:
 
@@ -103,11 +93,7 @@ The primary functions used on this application are:
 
 I've used the following Python packages and/or external imported packages.
 
-- `gspread`: used with the Google Sheets API
-- `google.oauth2.service_account`: used for the Google Sheets API credentials
-- `os`: used for adding a `clear()` function
 - `colorama`: used for including color in the terminal
-- `random`: used to get a random choice from a list
 
 ## Testing
 
@@ -166,7 +152,6 @@ This project can be cloned or forked in order to make a local copy on your own s
 For either method, you will need to install any applicable packages found within the *requirements.txt* file.
 - `pip3 install -r requirements.txt`.
 
-If using any confidential credentials, such as `CREDS.json` or `env.py` data, these will need to be manually added to your own newly created project as well.
 
 #### Cloning
 
@@ -213,10 +198,8 @@ Space to discuss any differences between the local version you've developed, and
 | --- | --- | --- |
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
 | [W3Schools](https://www.w3schools.com/python/ref_string_isalpha.asp) | entire page | how to use isalpha |
 | [Programiz](https://www.programiz.com/python-programming/methods/string/isalpha) | entire site | how to use isalpha |
-| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
 
 ### Media
 
