@@ -61,7 +61,7 @@ def username_setup():
             break
     clear()
     USERNAME = username
-    print(Fore.GREEN + "Hello " + username + ", lets test your ball knowledge!")
+    print(Fore.GREEN + f"Hello {username}, let's test your ball knowledge!")
 
 
 def validator_username(username):
@@ -119,7 +119,8 @@ def end_game():
     """
     End of game text with result
     """
-    print(Fore.GREEN + f"Great job {USERNAME}, you got a score of {QUESTIONS_CORRECT}!")
+    print(Fore.GREEN + f"Great job {USERNAME}")
+    print(Fore.GREEN + f"You got {QUESTIONS_CORRECT} correct!")
     print(Fore.RED + f"You got {QUESTIONS_INCORRECT} incorrect.\n")
     print(Fore.GREEN + "Would you like to play again?")
 
@@ -131,7 +132,8 @@ def replay_game():
     global QUESTIONS_CORRECT
     global QUESTIONS_INCORRECT
     global USERNAME
-    replaygame = input(f"If you would like to replay click Y, otherwise click N.\n").upper()
+    replaygame = input(
+        f"If you would like to replay click Y, otherwise click N.\n").upper()
     if replaygame == "Y":
         print(Fore.GREEN + "Restarting game!")
         clear()
