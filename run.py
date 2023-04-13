@@ -163,6 +163,5 @@ if __name__ == "__main__":
     game_setup()
     username_setup()
     questions_validator()
-    final_score()
     end_game()
     replay_game()
