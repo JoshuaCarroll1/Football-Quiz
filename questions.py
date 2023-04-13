@@ -1,6 +1,6 @@
 QUESTIONS = [
     {
-        "question": "Who previously scored the most international goals prior to Cristiano Ronaldo?",
+        "question": "Who previously scored the most international goals prior to Cristiano Ronaldo?",  # noqa
         "correct_answer": "B",
         "choices": [
             "A. Lionel Messi",
@@ -22,7 +22,7 @@ QUESTIONS = [
         ]
     },
     {
-        "question": "Who has scored the most Champions League goals in one season?",
+        "question": "Who has scored the most Champions League goals in one season?",  # noqa
         "correct_answer": "D",
         "choices": [
             "A. Lionel Messi",
@@ -44,7 +44,7 @@ QUESTIONS = [
         ]
     },
     {
-        "question": "Which team has won in the Top 5 leagues has won the most domestic league titles in a row?",
+        "question": "Which team has won in the Top 5 leagues has won the most domestic league titles in a row?",  # noqa
         "correct_answer": "B",
         "choices": [
             "A. Real Madrid",
@@ -55,7 +55,7 @@ QUESTIONS = [
         ]
     },
     {
-        "question": "Which club has the best transfer profit in the top 5 leagues in the last decade?",
+        "question": "Which club has the best transfer profit in the top 5 leagues in the last decade?",  # noqa
         "correct_answer": "C",
         "choices": [
             "A. lyon",
@@ -132,7 +132,7 @@ QUESTIONS = [
         ]
     },
     {
-        "question": "Which player won the Ballon Dor prior to Lionel Messi and Cristiano Ronaldos dominance?",
+        "question": "Which player won the Ballon Dor prior to Lionel Messi and Cristiano Ronaldos dominance?",  # noqa
         "correct_answer": "C",
         "choices": [
             "A. Luka Modric",
@@ -199,7 +199,7 @@ QUESTIONS = [
         ]
     },
     {
-        "question": "Which Player headbutt an oppostion player during a World Cup Final?",
+        "question": "Which Player headbutt an oppostion player during a World Cup Final?",  # noqa
         "correct_answer": "A",
         "choices": [
             "A. Zidane",
@@ -221,7 +221,7 @@ QUESTIONS = [
         ]
     },
     {
-        "question": "Which team is the most successful team in England for Major trophies?",
+        "question": "Which team is the most successful team in England for Major trophies?",  # noqa
         "correct_answer": "A",
         "choices": [
             "A. Liverpool FC",
@@ -243,7 +243,7 @@ QUESTIONS = [
         ]
     },
     {
-        "question": "Which player scored the goal to win Portugal their first Euros in the Final?",
+        "question": "Which player scored the goal to win Portugal their first Euros in the Final?",  # noqa
         "correct_answer": "C",
         "choices": [
             "A. Cristiano Ronaldo",
@@ -254,7 +254,7 @@ QUESTIONS = [
         ]
     },
     {
-        "question": "Which player won a Premier League , transfered to another club, and won another Premier League that next season recently?",
+        "question": "Which player won a Premier League , transfered to another club, and won another Premier League  that next season recently?",  # noqa
         "correct_answer": "A",
         "choices": [
             "A. Ngolo Kante",
@@ -265,7 +265,7 @@ QUESTIONS = [
         ]
     },
     {
-        "question": "How many own goals did Jamie Carragher score against Liverpool in his career?",
+        "question": "How many own goals did Jamie Carragher score against Liverpool in his career?",  # noqa
         "correct_answer": "D",
         "choices": [
             "A. 1",
@@ -276,7 +276,7 @@ QUESTIONS = [
         ]
     },
     {
-        "question": "Which player won MVP in Serie A in the 2021/ 2022 season?",
+        "question": "Which player won MVP in Serie A in the 2021/ 2022 season?",  # noqa
         "correct_answer": "D",
         "choices": [
             "A. Olivier Giroud",
@@ -320,7 +320,7 @@ QUESTIONS = [
         ]
     },
     {
-        "question": "Who scored the final penalty for Argentina to win the Wrold Cup 2022",
+        "question": "Who scored the final penalty for Argentina to win the Wrold Cup 2022",  # noqa
         "correct_answer": "D",
         "choices": [
             "A. Lionel Messi",
