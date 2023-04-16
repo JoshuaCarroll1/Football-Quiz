@@ -19,9 +19,9 @@
 
 - As a returning site user, I would like to see different questions then prior, so that I can answer new questions.
 - As a returning site user, I would like to see my score, so that I can compare to other scores of mine.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to see how many I got incorrect, so that I can get less wrong.
+- As a returning site user, I would like to find out which ones i got wrong, so that I can know the answer for next time.
+- As a returning site user, I would like to have a replay button, so that I can replay without restarting the app.
 
 
 ## Features
@@ -33,19 +33,31 @@
 
     - Here you can enter a name between 4 and 15 letters and get a printed line back with your name in it ready to begin the game!
 
-![screenshot](documentation/feature01.png)
+![screenshot](documentation/pic1.png)
 
 - **Multiple different questions #2**
 
     - Made a possible 30 questions with 30 different answers!
 
-![screenshot](documentation/feature02.png)
+![screenshot](documentation/pic2.png)
 
-- **Give a score #3**
+- **Give a Correct score #3**
 
-    - At the end of the quiz give the user their score!
+    - At the end of the quiz give the user their correct score!
 
-![screenshot](documentation/feature03.png)
+![screenshot](documentation/pic3.png)
+
+- **Give a incorrect score #4**
+
+    - At the end of the quiz give the user their incorrect score!
+
+![screenshot](documentation/pic3.png)
+
+- **Give an option to replay within game #3**
+
+    - At the end of the quiz give the user a chance to replay the quiz!
+
+![screenshot](documentation/pic4.png)
 
 
 ### Future Features
@@ -87,7 +99,22 @@ The primary functions used on this application are:
 
 - `username_setup()`
     - Get username input from the user.
-.
+- `opening_logo()`
+    - Opening logo for game saying "FOOTBALL QUIZ".
+- `clear()`
+    - Function used to clear app page.
+- `game_setup()`
+    - Give user a welcome to game with text.
+- `validator_username()`
+    - Validate username with else/if statements.
+- `questions_validator()`
+    - Get questions for game and validate answers given.
+- `end_game()`
+    - End game text and scores.
+- `replay_game()`
+    - Give option for user to replay game with y/n.
+- `__name__()`
+    - Main function to run programs.
 
 ### Imports
 
