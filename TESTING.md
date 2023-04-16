@@ -13,8 +13,8 @@ I have used the recommended [CI Python Linter](https://pep8ci.herokuapp.com) to 
 
 | File | CI URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| run.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JoshuaCarroll1/football-quiz/main/run.py) | ![screenshot](documentation/py-validation-run.png) |  |
-| questions.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JoshuaCarroll1/football-quiz/main/questions.py) | ![screenshot](documentation/py-validation-run.png) |  |
+| run.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JoshuaCarroll1/football-quiz/main/run.py) | ![screenshot](documentation/run.png) |  |
+| questions.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JoshuaCarroll1/football-quiz/main/questions.py) | ![screenshot](documentation/questions.png) |  |
 
 ## Lighthouse Audit
 
@@ -31,13 +31,13 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 Defensive programming was manually tested with the below user acceptance testing:
 
-| Page | User Action | Expected Result | Pass/Fail | Comments |
+| Page | User Action | Expected Result | Pass/Fail | Screenshot |
 | --- | --- | --- | --- | --- |
-| run.py | | | | |
-| | Enter username | User should enter valid username | Pass | |
-| | Click on the Edit button | User will be redirected to the edit profile page | Pass | |
-| | Click on the My Orders link | User will be redirected to the My Orders page | Pass | |
-| | Brute forcing the URL to get to another user's profile | User should be given an error | Pass | Redirects user back to own profile |
+| run.py | Enter answer for quiz| User must enter a validate answer i.e A, B, C, D or answer will be incorrect| Pass | [screenshot](documentation/dp1.png) |
+| run.py | Enter username | User should enter valid username | Pass | ![screenshot](documentation/dp2.png) |
+| run.py | Enter answer for quiz | User will be be asked to enter a correct answer | Pass | ![screenshot](documentation/pic5.png) |
+| run.py | Ener username | User must enter name with more then 3 letters but less then 15 | Pass | ![screenshot](documentation/dp2.png) |
+| run.py | Ener username | User must enter name with just letters | Pass | ![screenshot](documentation/dp3.png) |
 
 
 ## User Story Testing
@@ -46,7 +46,7 @@ Defensive programming was manually tested with the below user acceptance testing
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to be able to add my name, so that I can be called my name. | ![screenshot](documentation/pic11.png) |
+| As a new site user, I would like to be able to add my name, so that I can be called my name. | ![screenshot](documentation/pic1.png) |
 | As a new site user, I would like to get random questions, so that I can answer questions. | ![screenshot](documentation/pic2.png) |
 | As a new site user, I would like to see how many questions I got correct, so that I can see how many I got incorrect. | ![screenshot](documentation/pic3.png) |
 | As a returning site user, I would like to see new questions, so that I can answer different questions. | ![screenshot](documentation/pic2.png) |

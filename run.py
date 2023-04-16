@@ -103,7 +103,7 @@ def questions_validator():
         user_answer = input(f"Select your answer:\n").upper()
         options = ["A", "B", "C", "D"]
         if user_answer not in options:
-            print(Fore.RED + "That is not a valid option, try again!")
+            print(Fore.RED + "That is not a valid option!")
         if user_answer == question["correct_answer"]:
             QUESTIONS_CORRECT += 1
             print(Fore.GREEN + "That is Correct!")
