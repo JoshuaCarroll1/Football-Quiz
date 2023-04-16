@@ -81,8 +81,15 @@
 
 ## Data Model
 
+### Flowchart
+
+
+Below is the flowchart of the main process of this Python program. It shows the entire cycle of the program.
+
+![screenshot](documentation/flowchart.png)
 
 ### Classes & Functions
+
 
 
 The primary functions used on this application are:
