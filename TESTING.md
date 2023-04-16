@@ -33,7 +33,7 @@ Defensive programming was manually tested with the below user acceptance testing
 
 | Page | User Action | Expected Result | Pass/Fail | Screenshot |
 | --- | --- | --- | --- | --- |
-| run.py | Enter answer for quiz| User must enter a validate answer i.e A, B, C, D or answer will be incorrect| Pass | [screenshot](documentation/dp1.png) |
+| run.py | Enter answer for quiz| User must enter a validate answer i.e A, B, C, D or answer will be incorrect| Pass | ![screenshot](documentation/dp1.png) |
 | run.py | Enter username | User should enter valid username | Pass | ![screenshot](documentation/dp2.png) |
 | run.py | Enter answer for quiz | User will be be asked to enter a correct answer | Pass | ![screenshot](documentation/pic5.png) |
 | run.py | Ener username | User must enter name with more then 3 letters but less then 15 | Pass | ![screenshot](documentation/dp2.png) |
