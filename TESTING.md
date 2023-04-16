@@ -23,8 +23,8 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Heroku | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Some minor warnings |
-| Heroku | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Few warnings |
+| Heroku | Mobile | ![screenshot](documentation/lighthouse1.png) | Some minor warnings |
+| Heroku | Desktop | ![screenshot](documentation/lighthouse2.png) | Some minor warnings |
 
 ## Defensive Programming
 
@@ -46,16 +46,12 @@ Defensive programming was manually tested with the below user acceptance testing
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature09.png) |
-| repeat for all remaining user stories | x |
+| As a new site user, I would like to be able to add my name, so that I can be called my name. | ![screenshot](documentation/pic11.png) |
+| As a new site user, I would like to get random questions, so that I can answer questions. | ![screenshot](documentation/pic2.png) |
+| As a new site user, I would like to see how many questions I got correct, so that I can see how many I got incorrect. | ![screenshot](documentation/pic3.png) |
+| As a returning site user, I would like to see new questions, so that I can answer different questions. | ![screenshot](documentation/pic2.png) |
+| As a returning site user, I would like to be able to replay the game within the game, so that I can quickly restart the quiz. | ![screenshot](documentation/pic4.png) |
+| As a returning site user, I would like to see what questions I get wrong, so that I can correct them in the future. | ![screenshot](documentation/pic5.png) |
 
 
 ## Unfixed Bugs
